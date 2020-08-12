@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "East us"
+        },
+        "networkInterfaceName": {
+            "value": "vm-test01855"
+        },
+        "networkSecurityGroupName": {
+            "value": "vm-test01-nsg"
+        },
+        "networkSecurityGroupRules": {
+            "value": []
+        },
+        "subnetName": {
+            "value": "dev-subnet"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/1cbaeb00-82f2-4e44-bc9f-b0f473c08c91/resourceGroups/chida_us_rg/providers/Microsoft.Network/virtualNetworks/vnet-us-dev-01"
+        },
+        "publicIpAddressName": {
+            "value": "vm-test01-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        },
+        "virtualMachineName": {
+            "value": "vm-test01-win"
+        },
+        "virtualMachineRG": {
+            "value": "CORE_RG_EU"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "adminUsername": {
+            "value": "admin01"
+        },
+        "adminPassword": {
+            "value": "Tata@12345678"
+        }
+    }
+}

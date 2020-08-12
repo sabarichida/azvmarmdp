@@ -1,1 +1,1 @@
-# azvmarmdp
+Azure ARM template VM deploy  
